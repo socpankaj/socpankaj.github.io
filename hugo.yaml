@@ -1,0 +1,53 @@
+baseURL: "https://opsec_pankaj.github.io/"
+title: "0xP4NK4J |"
+theme: "PaperMod"
+
+author:
+  name: "Pankaj Suthar"
+  email: "dgtlpankaj@gmail.com"
+
+
+paginate: 5
+
+params:
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  author: "Pankaj Suthar"
+
+  homeInfoParams:
+    Title: "Hi 👋 I'm Your Pankaj"
+    Content: >
+      Cyber Security Engineer | Researcher | Open Source Enthusiast | Blogger
+      Passionate about cybersecurity, sharing knowledge, and contributing to the community. 
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/socpankaj"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/pankajcybersec/"
+
+menu:
+  main:
+    - identifier: research
+      name: Research
+      url: /research/
+      weight: 30
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 40
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 20
+
+outputs:
+  home:
+    - HTML
+
