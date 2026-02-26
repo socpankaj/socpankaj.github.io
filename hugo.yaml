@@ -10,14 +10,14 @@ author:
 paginate: 5
 
 params:
-  defaultTheme: auto
+  defaultTheme: dark
   ShowReadingTime: true
   ShowShareButtons: true
-  ShowPostNavLinks: true
+  ShowFeaturedPosts: true
   author: "Pankaj Suthar"
 
   homeInfoParams:
-    Title: "Hi 👋 I'm Your Pankaj"
+    Title: "Hi 👋 I'm Pankaj Suthar"
     Content: >
       Cyber Security Engineer | Researcher | Open Source Enthusiast | Blogger
       Passionate about cybersecurity, sharing knowledge, and contributing to the community. 
